@@ -8,6 +8,11 @@ const input = {
   onChange: () => console.log('🍇', 'onChange'), // eslint-disable-line no-console
 };
 
+const input2 = {
+  value: false,
+  onChange: () => console.log('🍇', 'onChange'), // eslint-disable-line no-console
+};
+
 storiesOf('Checkbox', module)
   .addDecorator((getStory) => (
     <MuiThemeProvider>
@@ -18,4 +23,7 @@ storiesOf('Checkbox', module)
   ))
   .add('enabled', () => (
     <Checkbox label={'My label'} input={input} />
+  ))
+  .add('disabled', () => (
+    <Checkbox label={'My label'} input={input2} />
   ));
