@@ -34,6 +34,7 @@ SelectField.propTypes = {
    * [redux-form] The props under the meta key are metadata about the state of this field that redux-form is tracking for you.
    */
   meta: PropTypes.any,
+  style: PropTypes.object,
 };
 
 export default SelectField;

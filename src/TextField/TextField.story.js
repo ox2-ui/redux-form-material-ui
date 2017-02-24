@@ -26,7 +26,12 @@ storiesOf('TextField', module)
     </MuiThemeProvider>
   ))
   .add('default', () => (
-    <TextField label={'My label'} input={input} meta={meta} hintText={'Cool stuff'} />
+    <TextField
+      label={'My label'}
+      input={input}
+      meta={meta}
+      hintText={'Cool stuff'}
+    />
   ))
   .add('with error', () => (
     <TextField label={'My label'} input={input} meta={metaError} />

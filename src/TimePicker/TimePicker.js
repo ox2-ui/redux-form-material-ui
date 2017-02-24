@@ -4,7 +4,7 @@ import { default as MaterialTimePicker } from 'material-ui/TimePicker';
 /**
  * TimePicker Component
  */
-const TimePicker = ({input, label, meta, ...custom }) => (
+const TimePicker = ({input, label, ...custom }) => (
   <MaterialTimePicker
     floatingLabelText={label}
     onChange={(event, value) => input.onChange(value)}
