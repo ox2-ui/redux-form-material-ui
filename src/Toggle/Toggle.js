@@ -1,6 +1,14 @@
 import React, { PropTypes } from 'react';
 import { default as MaterialToggle } from 'material-ui/Toggle';
 
+const styles = {
+  thumbSwitched: {
+    backgroundColor: 'hsla(145, 63%, 42%, 1)',
+  },
+  trackSwitched: {
+    backgroundColor: 'hsla(145, 63%, 42%, .3)',
+  },
+};
 
 /**
  * Toggle Component
@@ -8,6 +16,8 @@ import { default as MaterialToggle } from 'material-ui/Toggle';
 const Toggle = ({ input, label }) => (
   <MaterialToggle
     label={label}
+    thumbSwitchedStyle={styles.thumbSwitched}
+    trackSwitchedStyle={styles.trackSwitched}
     toggled={input.value ? true : false} // eslint-disable-line no-unneeded-ternary
     onToggle={input.onChange} // eslint-disable-line react/jsx-handler-names
   />
