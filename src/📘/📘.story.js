@@ -7,7 +7,7 @@ storiesOf('📘', module)
     <IframeWrapped url={'docs/index.html'} />
   ))
   .add('Docs Dev', () => (
-    <IframeWrapped url={'http://localhost:6007'} />
+    <IframeWrapped url={'http://localhost:55028'} />
   ))
   .add('Docs Live', () => (
     <IframeWrapped url={'https://ox2.github.io/iframe/'} />

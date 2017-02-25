@@ -4,7 +4,7 @@ const glob = require('glob');
 module.exports = {
   title: '@ox2/redux-form-material-ui',
   template: './docs/src/template.html',
-  serverPort: 6007,
+  serverPort: 55028,
   styleguideDir: './docs',
   updateWebpackConfig: webpackConfig => {
     webpackConfig.module.loaders.push(
