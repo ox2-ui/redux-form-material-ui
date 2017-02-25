@@ -5,7 +5,7 @@ const styles = {
   wrapper: {
     display: 'flex',
     alignItems: 'center',
-    height: '32px',
+    height: '42px',
     marginTop: '10px',
     borderBottom: '1px solid rgb(224, 224, 224)',
   },
