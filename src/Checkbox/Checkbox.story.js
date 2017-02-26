@@ -21,9 +21,12 @@ storiesOf('Checkbox', module)
       </div>
     </MuiThemeProvider>
   ))
-  .add('enabled', () => (
+  .add('on', () => (
     <Checkbox label={'My label'} input={input} />
   ))
-  .add('disabled', () => (
+  .add('on - disabled', () => (
+    <Checkbox label={'My label'} input={input} disabled={true} />
+  ))
+  .add('off', () => (
     <Checkbox label={'My label'} input={input2} />
   ));
