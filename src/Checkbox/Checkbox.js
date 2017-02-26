@@ -1,11 +1,5 @@
 import React, { PropTypes } from 'react';
-import { default as MaterialCheckbox } from 'material-ui/Checkbox';
-
-const styles = {
-  icon: {
-    fill: 'hsla(0, 0%, 35%, 1)',
-  },
-};
+import { default as MaterialCheckbox } from '@ox2/material-ui/Checkbox';
 
 /**
  * Checkbox Component
@@ -13,7 +7,6 @@ const styles = {
 const Checkbox = ({ input, label }) => (
   <MaterialCheckbox
     label={label}
-    iconStyle={styles.icon}
     checked={input.value ? true : false} // eslint-disable-line no-unneeded-ternary
     onCheck={input.onChange} // eslint-disable-line react/jsx-handler-names
   />
