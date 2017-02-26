@@ -21,9 +21,12 @@ storiesOf('ToggleField', module)
       </div>
     </MuiThemeProvider>
   ))
-  .add('enabled', () => (
+  .add('on', () => (
     <ToggleField label={'My label'} input={input} />
   ))
-  .add('disabled', () => (
+  .add('on - disabled', () => (
+    <ToggleField label={'My label'} input={input} disabled={true} />
+  ))
+  .add('off', () => (
     <ToggleField label={'My label'} input={input2} />
   ));
