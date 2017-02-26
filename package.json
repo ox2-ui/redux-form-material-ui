@@ -23,13 +23,14 @@
     "test:update": "yarn test -- -u"
   },
   "dependencies": {
-    "material-ui": "^0.16.4"
+    "@ox2/material-ui": "^0.0.2",
+    "material-ui": "^0.17.0"
   },
   "devDependencies": {
     "@kadira/storybook": "^2.31.0",
     "@kadira/storybook-addon-options": "^1.0.1",
     "@ox2/css-font-roboto": "^1.0.0",
-    "@ox2/css-font-roboto-condensed": "^1.0.0",
+    "@ox2/css-font-roboto-condensed": "^3.0.0",
     "@ox2/iframe": "^0.0.3",
     "babel-cli": "^6.22.2",
     "babel-core": "^6.22.1",

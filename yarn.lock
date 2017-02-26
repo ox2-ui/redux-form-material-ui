@@ -103,9 +103,9 @@
     webpack-dev-middleware "^1.6.0"
     webpack-hot-middleware "^2.13.2"
 
-"@ox2/css-font-roboto-condensed@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@ox2/css-font-roboto-condensed/-/css-font-roboto-condensed-1.0.0.tgz#485a75b833a57aaebc564629d3f7e3bea3671078"
+"@ox2/css-font-roboto-condensed@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@ox2/css-font-roboto-condensed/-/css-font-roboto-condensed-3.0.0.tgz#a169571cd96cc7d141d26d3671d307c8fb59a477"
 
 "@ox2/css-font-roboto@^1.0.0":
   version "1.0.0"
@@ -117,6 +117,12 @@
   dependencies:
     react-dimensions next
     react-virtualized "^8.7.1"
+
+"@ox2/material-ui@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@ox2/material-ui/-/material-ui-0.0.2.tgz#52d286124e753f381c3d7fd5dd5b103816cb6988"
+  dependencies:
+    material-ui "^0.17.0"
 
 abab@^1.0.3:
   version "1.0.3"
@@ -4168,11 +4174,11 @@ marked@^0.3.6:
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.6.tgz#b2c6c618fccece4ef86c4fc6cb8a7cbf5aeda8d7"
 
-material-ui@^0.16.4:
-  version "0.16.7"
-  resolved "https://registry.yarnpkg.com/material-ui/-/material-ui-0.16.7.tgz#5ec5080d5f227817092c449105df9cbc8807941c"
+material-ui@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/material-ui/-/material-ui-0.17.0.tgz#fd0e2e16f55184f66bc770225a053444e4ae7d33"
   dependencies:
-    babel-runtime "^6.11.6"
+    babel-runtime "^6.18.0"
     inline-style-prefixer "^2.0.1"
     keycode "^2.1.1"
     lodash.merge "^4.6.0"
@@ -4180,7 +4186,7 @@ material-ui@^0.16.4:
     react-addons-create-fragment "^15.0.0"
     react-addons-transition-group "^15.0.0"
     react-event-listener "^0.4.0"
-    recompose "^0.21.0"
+    recompose "^0.22.0"
     simple-assign "^0.1.0"
     warning "^3.0.0"
 
@@ -5402,9 +5408,9 @@ rechoir@^0.6.2:
   dependencies:
     resolve "^1.1.6"
 
-recompose@^0.21.0:
-  version "0.21.2"
-  resolved "https://registry.yarnpkg.com/recompose/-/recompose-0.21.2.tgz#ff3fbdb2397b1c77c47d451be2a63b9295d44681"
+recompose@^0.22.0:
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/recompose/-/recompose-0.22.0.tgz#f099d18385882ca41d9eec891718dadddc3204ef"
   dependencies:
     change-emitter "^0.1.2"
     fbjs "^0.8.1"
