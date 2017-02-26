@@ -4,6 +4,7 @@ import TextField from './TextField';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 const input = {
+  value: 'My value',
   onChange: (value) => console.log('🍇', value), // eslint-disable-line no-console
 };
 
@@ -30,9 +31,12 @@ storiesOf('TextField', module)
       label={'My label'}
       input={input}
       meta={meta}
-      hintText={'Cool stuff'}
     />
   ))
   .add('with error', () => (
-    <TextField label={'My label'} input={input} meta={metaError} />
+    <TextField
+      label={'My label'}
+      input={input}
+      meta={metaError}
+    />
   ));
