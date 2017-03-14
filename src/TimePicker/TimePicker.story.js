@@ -17,5 +17,5 @@ storiesOf('TimePicker', module)
     </MuiThemeProvider>
   ))
   .add('default', () => (
-    <TimePicker label={'My label'} input={input} />
+    <TimePicker input={input} label={'My label'} />
   ));

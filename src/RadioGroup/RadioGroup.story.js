@@ -18,7 +18,7 @@ storiesOf('RadioGroup', module)
   ))
   .add('default', () => (
     <RadioGroup input={input} name={'myRadio'}>
-      <RadioButton value="male" label="male" />
-      <RadioButton value="female" label="female" />
+      <RadioButton label="male" value="male" />
+      <RadioButton label="female" value="female" />
     </RadioGroup>
   ));

@@ -6,9 +6,9 @@ import { default as MaterialCheckbox } from '@ox2/material-ui/Checkbox';
  */
 const Checkbox = ({ input, label, disabled }) => (
   <MaterialCheckbox
-    label={label}
-    disabled={disabled}
     checked={input.value ? true : false} // eslint-disable-line no-unneeded-ternary
+    disabled={disabled}
+    label={label}
     onCheck={input.onChange} // eslint-disable-line react/jsx-handler-names
   />
 );

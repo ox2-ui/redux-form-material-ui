@@ -17,5 +17,5 @@ storiesOf('DatePicker', module)
     </MuiThemeProvider>
   ))
   .add('default', () => (
-    <DatePicker label={'My label'} input={input} />
+    <DatePicker input={input} label={'My label'} />
   ));

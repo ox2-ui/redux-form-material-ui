@@ -28,15 +28,15 @@ storiesOf('TextField', module)
   ))
   .add('default', () => (
     <TextField
-      label={'My label'}
       input={input}
+      label={'My label'}
       meta={meta}
     />
   ))
   .add('with error', () => (
     <TextField
-      label={'My label'}
       input={input}
+      label={'My label'}
       meta={metaError}
     />
   ));

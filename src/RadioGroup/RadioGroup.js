@@ -6,10 +6,10 @@ import { RadioButtonGroup as MaterialRadioButtonGroup } from 'material-ui/RadioB
  */
 const RadioGroup = ({ input, ...rest }) => (
   <MaterialRadioButtonGroup
+    onChange={(event, value) => input.onChange(value)}
+    valueSelected={input.value}
     {...input}
     {...rest}
-    valueSelected={input.value}
-    onChange={(event, value) => input.onChange(value)}
   />
 );
 

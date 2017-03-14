@@ -6,10 +6,10 @@ import { default as MaterialToggleField } from '@ox2/material-ui/ToggleField';
  */
 const ToggleField = ({ input, label, disabled }) => (
   <MaterialToggleField
-    label={label}
     disabled={disabled}
-    toggled={input.value ? true : false} // eslint-disable-line no-unneeded-ternary
+    label={label}
     onToggle={input.onChange} // eslint-disable-line react/jsx-handler-names
+    toggled={input.value ? true : false} // eslint-disable-line no-unneeded-ternary
   />
 );
 

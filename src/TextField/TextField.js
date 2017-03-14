@@ -6,10 +6,10 @@ import { default as MaterialTextField } from '@ox2/material-ui/TextField';
  */
 const TextField = ({ input, label, meta: { touched, error }, ...custom }) => (
   <MaterialTextField
-    floatingLabelText={label}
     errorText={touched && error}
-    {...input}
+    floatingLabelText={label}
     {...custom}
+    {...input}
   />
 );
 

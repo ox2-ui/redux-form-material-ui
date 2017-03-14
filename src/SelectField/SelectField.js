@@ -6,13 +6,13 @@ import { default as MaterialSelectField } from 'material-ui/SelectField';
  */
 const SelectField = ({ input, label, meta: { touched, error }, style, children, ...custom }) => (
   <MaterialSelectField
-    floatingLabelText={label}
-    errorText={touched && error}
-    {...input}
-    onChange={(event, index, value) => input.onChange(value)}
     children={children}
+    errorText={touched && error}
+    floatingLabelText={label}
+    onChange={(event, index, value) => input.onChange(value)}
     style={{ ...{fontSize: '18px', width: '100%'}, ...style}}
     {...custom}
+    {...input}
   />
 );
 

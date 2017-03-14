@@ -28,18 +28,18 @@ storiesOf('SelectField', module)
     </MuiThemeProvider>
   ))
   .add('default', () => (
-    <SelectField label={'My label'} input={input} meta={meta}>
-      <MenuItem style={{ WebkitAppearance: 'initial'}} value={''} primaryText="" />
-      <MenuItem style={{ WebkitAppearance: 'initial'}} value={'#ff0000'} primaryText="Red" />
-      <MenuItem style={{ WebkitAppearance: 'initial'}} value={'#00ff00'} primaryText="Green" />
-      <MenuItem style={{ WebkitAppearance: 'initial'}} value={'#0000ff'} primaryText="Blue" />
+    <SelectField input={input} label={'My label'} meta={meta}>
+      <MenuItem primaryText="" style={{ WebkitAppearance: 'initial'}} value={''} />
+      <MenuItem primaryText="Red" style={{ WebkitAppearance: 'initial'}} value={'#ff0000'} />
+      <MenuItem primaryText="Green" style={{ WebkitAppearance: 'initial'}} value={'#00ff00'} />
+      <MenuItem primaryText="Blue" style={{ WebkitAppearance: 'initial'}} value={'#0000ff'} />
     </SelectField>
   ))
   .add('with error', () => (
-    <SelectField label={'My label'} input={input} meta={metaError}>
-      <MenuItem style={{ WebkitAppearance: 'initial'}} value={''} primaryText="" />
-      <MenuItem style={{ WebkitAppearance: 'initial'}} value={'#ff0000'} primaryText="Red" />
-      <MenuItem style={{ WebkitAppearance: 'initial'}} value={'#00ff00'} primaryText="Green" />
-      <MenuItem style={{ WebkitAppearance: 'initial'}} value={'#0000ff'} primaryText="Blue" />
+    <SelectField input={input} label={'My label'} meta={metaError}>
+      <MenuItem primaryText="" style={{ WebkitAppearance: 'initial'}} value={''} />
+      <MenuItem primaryText="Red" style={{ WebkitAppearance: 'initial'}} value={'#ff0000'} />
+      <MenuItem primaryText="Green" style={{ WebkitAppearance: 'initial'}} value={'#00ff00'} />
+      <MenuItem primaryText="Blue" style={{ WebkitAppearance: 'initial'}} value={'#0000ff'} />
     </SelectField>
   ));
