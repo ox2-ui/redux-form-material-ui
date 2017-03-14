@@ -1,3 +1,0 @@
-### SelectFieldMenu
-
-    <SelectFieldMenu/>
