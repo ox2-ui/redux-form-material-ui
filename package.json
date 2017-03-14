@@ -1,6 +1,6 @@
 {
   "name": "@ox2/redux-form-material-ui",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Material UI form component wrappers for redux-form",
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
     "test:update": "yarn test -- -u"
   },
   "dependencies": {
-    "@ox2/material-ui": "^0.1.0",
+    "@ox2/material-ui": "^0.1.1",
     "material-ui": "^0.17.1"
   },
   "devDependencies": {

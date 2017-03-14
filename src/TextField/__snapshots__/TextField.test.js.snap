@@ -447,6 +447,11 @@ exports[`renders correctly 1`] = `
           disabled={false}
           errorText={false}
           floatingLabelFixed={true}
+          floatingLabelStyle={
+            Object {
+              "fontSize": "18px",
+            }
+          }
           floatingLabelText="My label"
           fullWidth={true}
           id="myId"
@@ -903,6 +908,7 @@ exports[`renders correctly 1`] = `
               style={
                 Object {
                   "color": "hsla(0, 0%, 35%, 1)",
+                  "fontSize": "18px",
                   "pointerEvents": "none",
                 }
               }
@@ -912,6 +918,7 @@ exports[`renders correctly 1`] = `
                 style={
                   Object {
                     "color": "hsla(0, 0%, 35%, 1)",
+                    "fontSize": "18px",
                     "lineHeight": "22px",
                     "muiPrepared": true,
                     "pointerEvents": "none",
@@ -1877,6 +1884,11 @@ exports[`renders with error 1`] = `
           disabled={false}
           errorText="invalid something"
           floatingLabelFixed={true}
+          floatingLabelStyle={
+            Object {
+              "fontSize": "18px",
+            }
+          }
           floatingLabelText="My label"
           fullWidth={true}
           id="myId"
@@ -2333,6 +2345,7 @@ exports[`renders with error 1`] = `
               style={
                 Object {
                   "color": "hsla(0, 0%, 35%, 1)",
+                  "fontSize": "18px",
                   "pointerEvents": "none",
                 }
               }
@@ -2342,6 +2355,7 @@ exports[`renders with error 1`] = `
                 style={
                   Object {
                     "color": "hsla(0, 0%, 35%, 1)",
+                    "fontSize": "18px",
                     "lineHeight": "22px",
                     "muiPrepared": true,
                     "pointerEvents": "none",
