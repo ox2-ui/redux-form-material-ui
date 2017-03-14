@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
 import TextField from './TextField';
-import Theme from '@ox2/theme-wrapper/Theme/Theme';
+import Theme from '@ox2/theme-wrapper/Theme';
 
 const input = {
   value: 'My value',

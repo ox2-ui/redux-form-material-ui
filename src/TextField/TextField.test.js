@@ -2,7 +2,7 @@
 import React from 'react';
 import { shallow, render, mount } from 'enzyme';
 import TextField from './TextField';
-import Theme from '@ox2/theme-wrapper/Theme/Theme';
+import Theme from '@ox2/theme-wrapper/Theme';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
 // Material UI

@@ -2,7 +2,7 @@
 import React from 'react';
 import { shallow, render, mount } from 'enzyme';
 import RadioGroup from './RadioGroup';
-import Theme from '@ox2/theme-wrapper/Theme/Theme';
+import Theme from '@ox2/theme-wrapper/Theme';
 import { RadioButton } from 'material-ui/RadioButton';
 
 const input = {

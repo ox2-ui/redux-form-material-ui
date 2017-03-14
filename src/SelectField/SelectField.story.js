@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
 import SelectField from './SelectField';
-import Theme from '@ox2/theme-wrapper/Theme/Theme';
+import Theme from '@ox2/theme-wrapper/Theme';
 import MenuItem from 'material-ui/MenuItem';
 
 const input = {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
 import TimePicker from './TimePicker';
-import Theme from '@ox2/theme-wrapper/Theme/Theme';
+import Theme from '@ox2/theme-wrapper/Theme';
 
 const input = {
   value: true,

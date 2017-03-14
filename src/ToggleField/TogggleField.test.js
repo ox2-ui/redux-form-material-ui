@@ -2,7 +2,7 @@
 import React from 'react';
 import { shallow, render, mount } from 'enzyme';
 import ToggleField from './ToggleField';
-import Theme from '@ox2/theme-wrapper/Theme/Theme';
+import Theme from '@ox2/theme-wrapper/Theme';
 
 const input = {
   value: true,
