@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
 import SelectFieldMenu from './SelectFieldMenu';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import Theme from '@ox2/theme-wrapper/Theme/Theme';
 import MenuItem from 'material-ui/MenuItem';
 
 const input = {
@@ -21,11 +21,11 @@ const metaError = {
 
 storiesOf('SelectFieldMenu', module)
   .addDecorator((getStory) => (
-    <MuiThemeProvider>
+    <Theme>
       <div style={{width: '320px', padding: '20px'}}>
         { getStory() }
       </div>
-    </MuiThemeProvider>
+    </Theme>
   ))
   .add('default', () => (
     <SelectFieldMenu input={input} label={'My label'} meta={meta}>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
 import ToggleField from './ToggleField';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import Theme from '@ox2/theme-wrapper/Theme/Theme';
 
 const input = {
   value: true,
@@ -15,18 +15,28 @@ const input2 = {
 
 storiesOf('ToggleField', module)
   .addDecorator((getStory) => (
-    <MuiThemeProvider>
+    <Theme>
       <div style={{width: '320px'}}>
         { getStory() }
       </div>
-    </MuiThemeProvider>
+    </Theme>
   ))
   .add('on', () => (
-    <ToggleField input={input} label={'My label'} />
+    <ToggleField
+      input={input}
+      label={'My label'}
+    />
   ))
   .add('on - disabled', () => (
-    <ToggleField disabled={true} input={input} label={'My label'} />
+    <ToggleField
+      disabled={true}
+      input={input}
+      label={'My label'}
+    />
   ))
   .add('off', () => (
-    <ToggleField input={input2} label={'My label'} />
+    <ToggleField
+      input={input2}
+      label={'My label'}
+    />
   ));

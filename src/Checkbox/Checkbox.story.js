@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
 import Checkbox from './Checkbox';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import Theme from '@ox2/theme-wrapper/Theme/Theme';
 
 const input = {
   value: true,
@@ -15,11 +15,11 @@ const input2 = {
 
 storiesOf('Checkbox', module)
   .addDecorator((getStory) => (
-    <MuiThemeProvider>
+    <Theme>
       <div style={{width: '320px', padding: '20px'}}>
         { getStory() }
       </div>
-    </MuiThemeProvider>
+    </Theme>
   ))
   .add('on', () => (
     <Checkbox

@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
 import DatePicker from './DatePicker';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import Theme from '@ox2/theme-wrapper/Theme/Theme';
 
 const input = {
   value: true,
@@ -10,11 +10,11 @@ const input = {
 
 storiesOf('DatePicker', module)
   .addDecorator((getStory) => (
-    <MuiThemeProvider>
+    <Theme>
       <div style={{width: '320px', padding: '20px'}}>
         { getStory() }
       </div>
-    </MuiThemeProvider>
+    </Theme>
   ))
   .add('default', () => (
     <DatePicker input={input} label={'My label'} />

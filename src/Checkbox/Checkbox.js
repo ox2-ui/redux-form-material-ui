@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import { default as MaterialCheckbox } from '@ox2/material-ui/Checkbox';
+import { default as MaterialCheckbox } from 'material-ui/Checkbox';
 
 /**
  * Checkbox Component
