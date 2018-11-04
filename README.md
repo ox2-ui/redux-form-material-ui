@@ -1,3 +1,5 @@
+### Package is no longer maintaned.
+
 # redux-form-material-ui
 ![NPM version](https://img.shields.io/npm/v/@ox2/redux-form-material-ui.svg?style=flat)
 
